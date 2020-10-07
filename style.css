@@ -180,11 +180,13 @@ body {
 }
 
 .project-photo {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
 .project-photo img {
-  height: 180px;
+  width: 100%;
 }
 
 .project-overlay {
@@ -196,7 +198,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(32, 58, 143, 0.7);
+  background-color: rgba(32, 58, 143, 0.4);
   z-index: 2;
   cursor: pointer;
 }
@@ -208,10 +210,21 @@ body {
   font-family: 'Montserrat', bold, sans-serif;
   text-align: center;
 }
-.project-photo,
+.project-text {
+  color: #000;
+  font-family: 'Roboto', regular, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.red-bold {
+  color: #FA382F;
+  font-weight: 700;
+}
+/* .project-photo,
 .project-text-1 {
   border: solid 2px black;
-}
+} */
 
 @media(max-width:330px) {
   .header-text h1 {
