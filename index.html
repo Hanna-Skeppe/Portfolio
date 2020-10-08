@@ -6,6 +6,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Hanna's Portfolio</title>
 </head>
 <body>
@@ -14,12 +16,12 @@
     <!-- <div class="hero-image"></div> -->
     <section class="icons-top-wrapper">
       
-      <a class="icon-top" href="https://www.linkedin.com/in/hannaskeppe/" target="_blank">
+      <a class="icon-top" href="https://www.linkedin.com/in/hannaskeppe/">
         <img class="header-icon" src="./assets/linkedinbig.png" alt="Linkedin icon">
         <!-- <span class="sr-only">LinkedIn</span> -->
       </a>
       
-      <a class="icon-top" href="https://github.com/Hanna-Skeppe" target="_blank">
+      <a class="icon-top" href="https://github.com/Hanna-Skeppe">
       <img class="header-icon" src="./assets/githubiconbig.png" alt="GitHub icon">
       <!-- <span class="sr-only">GitHub</span> -->
       </a>
@@ -129,7 +131,7 @@
         </article>
       </a>
       <a class="other-project-section" href="https://baker-and-brown-week-6-5.superhi.com/"> 
-        <p><span class="red-bold">BUSINESS SITE: "Baker & Brown". </span>A Business site, built using HTML, CSS and Javascript (jQuery). CSS transitions and toggle class with jQuery. <span class="red"> >></span></p>
+        <p><span class="red-bold">BUSINESS SITE: "Baker & Brown". </span>A Business site, built using HTML, CSS and Javascript (jQuery). CSS transitions and toggle class with jQuery. Only desktop.<span class="red"> >></span></p>
         <article class="project-labels">
           <span>HTML5</span>
           <span>CSS3</span>
@@ -157,36 +159,66 @@
     </section>
 
     <section class="skills">
-      <h3>SKILLS</h3>
+      <h3 class="skills-heading">SKILLS</h3>
       <div class="skills-wrapper"> 
-        <div class="code">
-          <h5>CODE</h5>
-          <p><code>HTML5</code></p>
-          <p>CSS3</p>
-          <p>Javascript ES6</p>
-          <p>React</p>
-          <p>SASS</p>
-          <p>GitHub</p>
-          <p>Node.js</p>
+        <div class="skills-div">
+          <h5 class="skills-subheading">CODE</h5>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript ES6</li>
+            <li>GitHub</li>
+          </ul>
         </div>
-        <div class="toolbox">
-          <h5>TOOLBOX</h5>
+        <div class="skills-div">
+          <h5 class="skills-subheading">UPCOMING</h5>
+          <ul>
+            <li>React</li>
+            <li>SASS</li>
+            <li>Node.js</li>
+          </ul>
         </div>
-        <div class="upcoming">
-          <h5>UPCOMING</h5>
+        <div class="skills-div">
+          <h5 class="skills-subheading">TOOLBOX</h5>
+          <ul>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Notion</li>
+            <li>Slack</li>
+            <li>Adobe Photoshop</li>
+            <li>Power Point</li>
+            <li>Microsoft Excel</li>
+          </ul>
         </div>
-        <div class="more">
-          <h5>MORE</h5>
+        <div class="skills-div">
+          <h5 class="skills-subheading">MORE</h5>
+          <ul>
+            <li>Coaching</li>
+            <li>Public administration</li>
+            <li>Politics</li>
+            <li>Labour Market Issues</li>
+            <li>Study counselling</li>
+            <li>Motivational Interviewing</li>
+            <li>Coordination</li>
+            <li>Workshops</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="for-more">
+      <h3 class="skills-heading">FOR MORE</h3>
+      <article class="icons-bottom">
+        <a class="icon-wrapper" href="https://www.linkedin.com/in/hannaskeppe/"> 
+          <span class="bottom-icon"></span>
+          <p>LinkedIn</p>
+        </a>
 
+      </article>
     </section>
 
     <footer>
-      <h3>CONTACT</h3>
+      <h3 class="footer-heading">CONTACT</h3>
       <p>Hanna Skeppe</p>
       <p>+46 70 446 41 48</p>
       <a href="mailto:hannaskeppe@gmail.com">e-mail</a>
