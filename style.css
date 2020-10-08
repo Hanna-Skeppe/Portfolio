@@ -304,9 +304,9 @@ body {
   margin: 15px 0 20px 0;
 }
 
-.skills-div ul:last-of-type {
+/* .skills-div ul:last-of-type {
   margin-bottom: 0;
-}
+} */
 
 .skills-div li {
   margin-bottom: 5px;
@@ -381,5 +381,19 @@ footer a {
 
   .project-labels span {
     font-size: 14px;
+  }
+}
+
+@media(min-width:768px) {
+  .skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+  }
+
+  .skills-div {
+    width: auto;
   }
 }
