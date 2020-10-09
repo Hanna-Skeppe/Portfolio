@@ -143,7 +143,8 @@ body {
 
 .tech-heading,
 .project-heading,
-.skills-heading {
+.skills-heading,
+.thoughts-heading {
   font-family: 'Montserrat', bold, sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -154,7 +155,8 @@ body {
   letter-spacing: 1px;
 }
 
-.tech-text {
+.tech-text,
+.thoughts-text {
   font-size: 17px;
   font-family: 'Montserrat', regular, sans-serif;
   line-height: 1.7;
@@ -175,8 +177,13 @@ body {
   padding: 63px 36px 0 36px;
 }
 
-.other-projects {
-  padding-top: 23px;
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-projects,
+.my-thoughts {
   background: #fff;
 }
 
@@ -262,8 +269,7 @@ body {
   align-self: center;
   letter-spacing: 1px;
   font-size: 22px;
-  /* padding: 8px 10px;
-  margin: 0 auto 36px auto; */
+  margin: 0 auto 36px auto;
 }
 
 .skills {
@@ -279,7 +285,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* text-align: center; */
 }
 
 .skills-div {
@@ -307,6 +312,72 @@ body {
 /* .skills-div ul:last-of-type {
   margin-bottom: 0;
 } */
+.my-thoughts {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 63px 36px;
+  background-color: #def2d2;
+}
+
+.thoughts-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.thoughts-wrapper img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.for-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 63px 36px;
+}
+
+.icons-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 30%;
+  margin: 15px 5px;
+}
+
+.icons-bottom i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  color: #1c3312;
+  border: 3px solid #1c3312;
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+}
+
+.icons-bottom p {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1c3312;
+}
 
 .skills-div li {
   margin-bottom: 5px;
@@ -385,6 +456,23 @@ footer a {
 }
 
 @media(min-width:768px) {
+  .hero-section {
+    height: 60vh;
+  }
+  .projects-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .project-section {
+    width: 45%;
+    margin: auto;
+  }
+
+  .project-text p {
+    height: 56px;
+  }
+
   .skills-wrapper {
     display: flex;
     flex-direction: row;
@@ -395,5 +483,11 @@ footer a {
 
   .skills-div {
     width: auto;
+  }
+}
+
+@media(min-width:1200px) {
+ {
+    max-width: 1200px;
   }
 }
