@@ -179,6 +179,10 @@ p {
   padding: 63px 36px;
 }
 
+.brown-tech {
+  color:#A66E4E;
+}
+
 .tech-heading,
 .project-heading,
 .skills-heading,
@@ -492,6 +496,11 @@ footer a {
   .thoughts-heading,
   .footer-heading {
     padding: 3px 5px;
+  }
+
+  .project-hedaing {
+    text-align: center;
+    width: min-content;
   }
 
   .project-labels span {
