@@ -56,11 +56,22 @@ p {
   height: 75vh;
 }
 
+.hero-overlay {
+  position: absolute;
+  background: rgba(17, 42, 3, 0.4);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
 .icons-top-wrapper {
   display: flex;
   position: absolute;
   top: 75px;
   right: 36px;
+  z-index: 3;
 }
 
 .icon-top {
@@ -78,6 +89,7 @@ p {
   position: absolute;
   top: 11px;
   left: 11px;
+  z-index: 3;
 }
 
 .header-text {
