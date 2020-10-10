@@ -192,7 +192,6 @@ p {
 }
 
 .brown-tech {
-  /* color:#A66E4E; */
   color: #724C36;
 }
 
@@ -372,7 +371,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 63px 36px;
-  background-color: #def2d2;
+  background-color: #b2c2a8;
 }
 
 .thoughts-wrapper {
