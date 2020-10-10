@@ -4,6 +4,45 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: 'Montserrat', bold, sans-serif;
+  text-transform: uppercase;
+  padding: 6px 8px;
+  margin: 0 auto 36px auto;
+  letter-spacing: 1px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+p, li {
+  font-size: 16px;
+  font-family: 'Montserrat', regular, sans-serif;
+  line-height: 1.7;
+  color: #000;
+}
+
+p {
+  margin: 0;
+}
+
 .hero-section {
   background-image: url("./assets/hero-dark-leaves.jpg");
   background-size: cover;
@@ -11,13 +50,13 @@ body {
   position: relative;
   margin: 0;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
 }
 
 .icons-top-wrapper {
   display: flex;
   position: absolute;
-  top: 105px;
+  top: 75px;
   right: 36px;
 }
 
@@ -41,15 +80,13 @@ body {
 .header-text {
   color: #fff;
   margin: 0;
-  padding: 170px 36px 0 36px;
+  padding: 140px 36px 0 36px;
   display: flex;
   flex-direction: column;
 }
 
 .header-name {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  color: #fff;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -62,20 +99,10 @@ body {
 }
 
 .header-text h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-  text-transform: lowercase;
   margin: 0 0 8px 0;
 }
 
 .header-text h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  text-transform: lowercase;
   margin: 0;
 }
 
@@ -92,10 +119,22 @@ body {
 .summary-section {
   background-color: #F4F4F4;
   margin-top: -20px;
-  padding: 63px 36px;
+  padding: 83px 36px 63px 36px;
   display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.summary-content {
   position: relative;
-  z-index: 0;
 }
 
 .summary-figures {
@@ -106,8 +145,8 @@ body {
   height: 12px;
   margin: 0;
   position: absolute;
-  top: 72px;
-  left: 36px;
+  top: 10px;
+  left: 0;
 }
 
 .circle {
@@ -125,10 +164,6 @@ body {
 }
 
 .summary-text {
-  font-family: 'Montserrat', regular, sans-serif;
-  font-size: 17px;
-  line-height: 1.7;
-  margin: 0;
   text-indent: 65px;
   display: inline-block;
 }
@@ -145,24 +180,15 @@ body {
 .project-heading,
 .skills-heading,
 .thoughts-heading {
-  font-family: 'Montserrat', bold, sans-serif;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 22px;
+  /* font-size: 22px; */
   background-color: #1c3312;
-  padding: 6px 8px;
-  margin: 0 auto 36px auto;
-  letter-spacing: 1px;
 }
 
-.tech-text,
+/* .tech-text,
 .thoughts-text {
-  font-size: 17px;
-  font-family: 'Montserrat', regular, sans-serif;
-  line-height: 1.7;
-  color: #000;
   margin: 0;
-}
+} */
 
 .red {
   color: #FA382F;
@@ -174,6 +200,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 63px 36px 0 36px;
 }
 
@@ -216,7 +243,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(32, 58, 143, 0.5);
+  background-color: rgba(73, 88, 103, 0.7);
   z-index: 2;
   cursor: pointer;
 }
@@ -243,14 +270,14 @@ body {
 }
 
 .red-bold {
-  color: #FA382F;
+  color: #593528;
   font-weight: 700;
 }
 
 .project-labels {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin-bottom: 63px;
 }
 
 .project-labels span {
@@ -268,8 +295,20 @@ body {
   text-transform: uppercase;
   align-self: center;
   letter-spacing: 1px;
-  font-size: 22px;
+  /* font-size: 22px; */
   margin: 0 auto 36px auto;
+}
+
+.other-project-section {
+  align-self: flex-start;
+}
+
+.other-project-section p {
+  max-width: 950px;
+}
+
+.other-pizza {
+  display: none;
 }
 
 .skills {
@@ -314,7 +353,6 @@ body {
 } */
 .my-thoughts {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   padding: 63px 36px;
   background-color: #def2d2;
@@ -327,6 +365,7 @@ body {
 
 .thoughts-wrapper img {
   width: 100%;
+  max-width: 600px;
   margin-bottom: 15px;
 }
 
@@ -424,7 +463,7 @@ footer a {
   }
 
   .header-text {
-    padding: 90px 20px 0 20px;
+    padding: 85px 20px 0 20px;
   }
 
   .header-text h1 {
@@ -445,8 +484,8 @@ footer a {
   .project-heading,
   .skills-heading,
   .other-heading,
+  .thoughts-heading,
   .footer-heading {
-    font-size: 18px;
     padding: 3px 5px;
   }
 
@@ -457,8 +496,42 @@ footer a {
 
 @media(min-width:768px) {
   .hero-section {
-    height: 60vh;
+    height: 55vh;
   }
+
+  .icon-top {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .header-icon {
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 13px;
+  }
+
+  .header-text {
+    padding-top: 200px;
+  }
+
+  .header-name {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .profilepic {
+    width: 180px;
+  }
+
   .projects-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
@@ -469,8 +542,24 @@ footer a {
     margin: auto;
   }
 
+  .project-subheading {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .pizza {
+    display: none;
+  }
+
   .project-text p {
     height: 56px;
+  }
+
+  .other-pizza {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
   }
 
   .skills-wrapper {
@@ -486,8 +575,106 @@ footer a {
   }
 }
 
-@media(min-width:1200px) {
- {
-    max-width: 1200px;
+@media(min-width:1024px) {
+  h5, 
+  p, 
+  li, 
+  .icons-bottom p, 
+  footer p {
+    font-size: 18px;
+  }
+
+  .project labels span {
+    font-size: 18px;
+  }
+
+ .hero-section {
+   height: 70vh;
+ }
+
+ .profilepic {
+   width: 210px;
+ }
+
+ .summary-text,
+ .tech-text {
+   max-width: 60ch;
+ }
+
+ .summary-figures {
+   left: 203px;
+ }
+
+ li {
+   font-weight: 400;
+ }
+}
+
+@media(min-width:1400px) {
+  .summary-section {
+    padding: 140px 120px 120px 120px;
+  }
+  .featured-projects {
+    padding: 120px 120px 120px 120px;
+  }
+
+  /* .project-labels {
+    margin-bottom: 120px;
+  } */
+
+  .tech-section,
+  .other-projects,
+  .my-thoughts,
+  .skills,
+  .for-more,
+  footer {
+    padding: 120px;
+  }
+  
+  h3,
+  .other-heading,
+  .footer-heading {
+    font-size: 26px;
+    margin: 0 auto 60px auto;
+  }
+
+  .header-text {
+    padding: 220px 80px 0 80px
+  }
+
+  .icons-top-wrapper {
+    top: 120px;
+    right: 80px;
+  }
+
+  .icon-top {
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+  }
+
+  .header-icon {
+    width: 36px;
+    height: 36px;
+    top: 17px;
+    left: 17px;
+  }
+
+  .profilepic {
+    width: 280px;
+    bottom: -50px;
+    right: 80px;
+  }
+
+  h5, 
+  p, 
+  li, 
+  .icons-bottom p, 
+  footer p {
+    font-size: 20px;
+  }
+
+  .project labels span {
+    font-size: 20px;
   }
 }
