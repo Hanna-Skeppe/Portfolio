@@ -36,7 +36,10 @@ p, li {
   font-size: 16px;
   font-family: 'Montserrat', regular, sans-serif;
   line-height: 1.7;
-  color: #000;
+}
+
+li {
+  font-weight: 400;
 }
 
 p {
@@ -44,7 +47,7 @@ p {
 }
 
 .hero-section {
-  background-image: url("./assets/hero-dark-leaves.jpg");
+  background-image: url("./assets/hero-dark-leaves_1.jpg");
   background-size: cover;
   background-position: 3% 50%;
   position: relative;
@@ -94,7 +97,7 @@ p {
 }
 
 .header-name span {
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 8px;
 }
 
@@ -150,14 +153,14 @@ p {
 }
 
 .circle {
-  background: #FA382F;
+  background: #593528;
   width: 12px;
   height: 12px;
   border-radius: 50%;
 }
 
 .line {
-  background: #FA382F;
+  background: #593528;
   width: 32px;
   height: 3px;
   margin-bottom: 1px;
@@ -181,7 +184,6 @@ p {
 .skills-heading,
 .thoughts-heading {
   color: #fff;
-  /* font-size: 22px; */
   background-color: #1c3312;
 }
 
@@ -190,8 +192,8 @@ p {
   margin: 0;
 } */
 
-.red {
-  color: #FA382F;
+.brown {
+  color: #593528;
 }
 
 .featured-projects,
@@ -250,9 +252,11 @@ p {
 
 .project-subheading {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
-  font-family: 'Montserrat', bold, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -269,7 +273,7 @@ p {
   margin: 0 0 15px 0;
 }
 
-.red-bold {
+.brown-bold {
   color: #593528;
   font-weight: 700;
 }
@@ -282,7 +286,8 @@ p {
 
 .project-labels span {
   font-size: 16px;
-  background-color: #FDDFE7;
+  color: #fff;
+  background-color: #835748;
   padding: 0 7px;
   margin-right: 5px;
   border-radius: 5px;
@@ -295,7 +300,6 @@ p {
   text-transform: uppercase;
   align-self: center;
   letter-spacing: 1px;
-  /* font-size: 22px; */
   margin: 0 auto 36px auto;
 }
 
@@ -351,6 +355,7 @@ p {
 /* .skills-div ul:last-of-type {
   margin-bottom: 0;
 } */
+
 .my-thoughts {
   display: flex;
   justify-content: center;
@@ -544,8 +549,6 @@ footer a {
 
   .project-subheading {
     font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 1px;
   }
 
   .pizza {
@@ -596,13 +599,17 @@ footer a {
    width: 210px;
  }
 
+ .summary-content {
+   max-width: 715px;
+ }
+
  .summary-text,
  .tech-text {
    max-width: 60ch;
  }
 
  .summary-figures {
-   left: 203px;
+   left: 0;
  }
 
  li {
