@@ -28,7 +28,7 @@ h3 {
   letter-spacing: 1px;
 }
 
-h5 {
+h4 {
   font-size: 17px;
 }
 
@@ -190,11 +190,6 @@ p {
   color: #fff;
   background-color: #1c3312;
 }
-
-/* .tech-text,
-.thoughts-text {
-  margin: 0;
-} */
 
 .brown {
   color: #593528;
@@ -588,7 +583,7 @@ footer a {
 }
 
 @media(min-width:1024px) {
-  h5, 
+  h4, 
   p, 
   li, 
   .icons-bottom p, 
@@ -682,7 +677,7 @@ footer a {
     right: 80px;
   }
 
-  h5, 
+  h4, 
   p, 
   li, 
   .icons-bottom p, 
