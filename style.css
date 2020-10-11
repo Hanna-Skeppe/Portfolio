@@ -355,7 +355,7 @@ p {
   font-family: 'Roboto', bold, sans-serif;
 }
 
-.skills-div ul {
+.list {
   padding: 0;
   list-style-type: none;
   font-family: 'Roboto', bold, sans-serif;
@@ -364,9 +364,15 @@ p {
   margin: 15px 0 20px 0;
 }
 
-/* .skills-div ul:last-of-type {
+.last-list {
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Roboto', bold, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
   margin-bottom: 0;
-} */
+  margin: 15px 0 0 0;
+}
 
 .my-thoughts {
   display: flex;
@@ -512,7 +518,7 @@ footer a {
     text-align: center;
     width: min-content;
   }
-  
+
   .project-subheading {
     font-size: 16px;
   }
@@ -647,10 +653,6 @@ footer a {
   .featured-projects {
     padding: 120px 120px 120px 120px;
   }
-
-  /* .project-labels {
-    margin-bottom: 120px;
-  } */
 
   .tech-section,
   .other-projects,
