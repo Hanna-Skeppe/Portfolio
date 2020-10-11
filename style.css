@@ -239,6 +239,11 @@ p {
   margin-top: 55px;
 }
 
+.project-photo img,
+.project-overlay {
+  border-radius: 14px;
+}
+
 .project-photo:nth-child(1) {
   margin-top: 0;
 }
@@ -638,7 +643,7 @@ footer a {
  }
 
  .summary-figures {
-   left: 0;
+   left: 40px;
  }
 
  li {
@@ -650,6 +655,15 @@ footer a {
   .summary-section {
     padding: 140px 120px 120px 120px;
   }
+
+  .summary-content {
+    max-width: 794px;
+  }
+
+  .summary-figures {
+    left: 0;
+  }
+
   .featured-projects {
     padding: 120px 120px 120px 120px;
   }
