@@ -280,7 +280,8 @@ p {
   margin: 15px 0 0 0;
 }
 
-.project-text p {
+.project-text p,
+.other-project-section p {
   margin: 0 0 15px 0;
 }
 
@@ -505,9 +506,15 @@ footer a {
     padding: 3px 5px;
   }
 
-  .project-hedaing {
+  .project-heading,
+  .other-heading,
+  .thoughts-heading {
     text-align: center;
     width: min-content;
+  }
+  
+  .project-subheading {
+    font-size: 16px;
   }
 
   .project-labels span {

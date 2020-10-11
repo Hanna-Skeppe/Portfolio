@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description" content="Potrfolio page for Hanna Skeppe, front end developer.">
+  <meta name="Description" content="Portfolio page for Hanna Skeppe, front end developer."/>
+  <meta name="Keywords" content="Portfolio, Frontend, Developer, Programming, Web-developer, Design"/>
+  <meta name="url" content="https://portfolio-hanna-skeppe.netlify.app/"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="./assets/folder-icon-2.png" />
   <title>Hanna's Portfolio</title>
 </head>
 <body>
@@ -18,27 +21,27 @@
         
         <a class="icon-top" href="https://www.linkedin.com/in/hannaskeppe/" aria-label="LinkedIn icon" title="My LinkedIn page" tabindex="0">
           <img class="header-icon" src="./assets/linkedinbig.png" alt="Linkedin icon">
-          <!-- <span class="sr-only">LinkedIn</span> -->
+          <span class="sr-only">LinkedIn link</span>
         </a>
         
         <a class="icon-top" href="https://github.com/Hanna-Skeppe" aria-label="GitHub icon" title="My GitHub page" tabindex="0">
         <img class="header-icon" src="./assets/githubiconbig.png" alt="GitHub icon">
-        <!-- <span class="sr-only">GitHub</span> -->
+        <span class="sr-only">GitHub link</span>
         </a>
       </section>
 
       <section class="header-text">
-        <p class="header-name">
+        <p tabindex="0" class="header-name">
           Portfolio: <span>Hanna Skeppe</span>
         </p>
-        <h1>
+        <h1 tabindex="0">
           Frontend developer
         </h1>
-        <h2>
+        <h2 tabindex="0">
           With a background as a public official
         </h2>
       </section>
-      <img class="profilepic" src="./assets/profilepic_1.jpg" alt="Profile picture">
+      <img tabindex="0" class="profilepic" src="./assets/profilepic_1.jpg" alt="Profile picture of Hanna Skeppe">
     </div>
   </header>
   
@@ -49,15 +52,15 @@
           <span class="circle"></span>
           <span class="line"></span>
         </figure>
-        <p class="summary-text">Hello! I’m a junior frontend developer. I really enjoy to create products that have solid and structured code as well as a clean and on point design. What I like most about coding is that it entails both a creative aspect in design and in planning how to structure the code and that it also challenges the logical part of the brain and that you never stop learning new things. 
+        <p tabindex="0" class="summary-text">Hello! I’m a junior frontend developer. I really enjoy to create products that have solid and structured code as well as a clean and on point design. What I like most about coding is that it entails both a creative aspect in design and in planning how to structure the code and that it also challenges the logical part of the brain and that you never stop learning new things. 
         </p>
       </div>
     </section>
 
     <section class="tech-section">
       <div class="content"> 
-        <h3 class="tech-heading">Tech</h3>
-        <p class="tech-text">
+        <h3 tabindex="0" class="tech-heading">Tech</h3>
+        <p tabindex="0" class="tech-text">
           HTML, CSS, Flexbox, <span class="brown-tech">JavaScript,</span> ES6, JSX, <span class="brown-tech">React, React Hooks, Redux,</span> Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, pair-programming, Github.
         </p>
       </div>
@@ -65,9 +68,9 @@
 
     <section class="featured-projects">
       <div class="content"> 
-        <h3 class="project-heading">Featured Projects</h3>
+        <h3 tabindex="0" aria-label="My featured projects" class="project-heading">Featured Projects</h3>
         <div class="projects-wrapper"> 
-          <a class="project-section" href="https://youthful-ardinghelli-e80e81.netlify.app/"> 
+          <a  aria-label="Sunny side up. Link to Weather app, built in Javascript using Open Weather API. Tech used in the project: HTML, CSS and Javascript" class="project-section" href="https://youthful-ardinghelli-e80e81.netlify.app/"> 
             <div class="project-photo">
               <div class="project-overlay">
                 <h2 class="project-subheading">
@@ -86,7 +89,7 @@
             </div>
           </a>
 
-          <a class="project-section" href="https://cluedo-murder-mystery-hanna.netlify.app/"> 
+          <a aria-label="Cluedo mystery game. Link to classic Cluedo game-page. Built using Javascript. Tech used in the project: HTML, CSS and Javascript" class="project-section" href="https://cluedo-murder-mystery-hanna.netlify.app/"> 
             <div class="project-photo">
               <div class="project-overlay">
                 <h2 class="project-subheading">
@@ -105,7 +108,7 @@
             </div>
           </a>
 
-          <a class="project-section pizza" href="https://pizza-bot-hanna-and-therese.netlify.app/"> 
+          <a aria-label="Pizza bot. Link to pizza bot. A page created to order pizza. Built using Javascript. Tech used in the project: HTML, CSS and Javascript" class="project-section pizza" href="https://pizza-bot-hanna-and-therese.netlify.app/"> 
             <div class="project-photo">
               <div class="project-overlay">
                 <h2 class="project-subheading">
@@ -129,8 +132,8 @@
 
     <section class="other-projects">
       <div class="content"> 
-        <h3 class="other-heading">Other projects</h3>
-        <a class="other-project-section other-pizza" href="https://pizza-bot-hanna-and-therese.netlify.app/"> 
+        <h3 tabindex="0" class="other-heading">Other projects</h3>
+        <a aria-label="Pizza bot. Link to pizza bot. A page created to order pizza. Built using Javascript. Tech used in the project: HTML, CSS and Javascript"  class="other-project-section other-pizza" href="https://pizza-bot-hanna-and-therese.netlify.app/"> 
           <p><span class="brown-bold">PIZZA BOT. </span>A pizza bot, built using Javascript. <span class="brown"> >></span></p>
           <article class="project-labels">
             <span>HTML5</span>
@@ -138,15 +141,15 @@
             <span>Javascript ES6</span>
           </article>
         </a>
-        <a class="other-project-section" href="https://pinetreecabins.netlify.app/"> 
-          <p><span class="brown-bold">BUSINESS SITE: "Pine Tree Cabins". </span>A Business site, built using HTML, CSS and Javascript. With a video hero and an accordion. <span class="brown"> >></span></p>
+        <a aria-label="BUSINESS SITE: 'Pine Tree Cabins'. Link to mockup busines site with a video hero, an accordion and a submit form. Tech used in the project: HTML, CSS and Javascript"  class="other-project-section" href="https://pinetreecabins.netlify.app/"> 
+          <p><span class="brown-bold">BUSINESS SITE: "Pine Tree Cabins". </span>A Business site, built using HTML, CSS and Javascript. With a video hero, an accordion and a submit form. <span class="brown"> >></span></p>
           <article class="project-labels">
             <span>HTML5</span>
             <span>CSS3</span>
             <span>Javascript ES6</span>
           </article>
         </a>
-        <a class="other-project-section" href="https://baker-and-brown-week-6-5.superhi.com/"> 
+        <a aria-label="BUSINESS SITE: 'Baker & Brown'. Link to mockup Business site, built using HTML, CSS and Javascript (jQuery). CSS transitions and toggle class with jQuery. Only desktop. Tech used in the project: HTML, CSS and Javascript" class="other-project-section" href="https://baker-and-brown-week-6-5.superhi.com/"> 
           <p><span class="brown-bold">BUSINESS SITE: "Baker & Brown". </span>A Business site, built using HTML, CSS and Javascript (jQuery). CSS transitions and toggle class with jQuery. Only desktop.<span class="brown"> >></span></p>
           <article class="project-labels">
             <span>HTML5</span>
@@ -154,7 +157,7 @@
             <span>Javascript ES6</span>
           </article>
         </a>
-        <a class="other-project-section" href="https://week-5-essmei-106.superhi.com"> 
+        <a aria-label="ACCESSORIES SHOP: 'Essmei'. Link to mockup accessories shop, built using HTML, CSS and Javascript (jQuery). Showing and hiding CSS classes with jQuery. Tech used in the project: HTML, CSS and Javascript" class="other-project-section" href="https://week-5-essmei-106.superhi.com"> 
           <p><span class="brown-bold">ACCESSORIES SHOP: "Essmei". </span>A mockup accessories shop, built using HTML, CSS and Javascript (jQuery). Showing and hiding CSS classes with jQuery. <span class="brown"> >></span></p>
           <article class="project-labels">
             <span>HTML5</span>
@@ -168,9 +171,9 @@
     <section class="my-thoughts">
       <div class="content"> 
         <div class="thoughts-wrapper"> 
-          <h3 class="thoughts-heading">My thoughts</h3>
-          <img src="./assets/thoughtspic.jpg" alt="picture of lightbulb">
-          <p class="thoughts-text">
+          <h3 tabindex="0" class="thoughts-heading">My thoughts</h3>
+          <img tabindex="0" src="./assets/thoughtspic.jpg" alt="picture of lightbulb">
+          <p tabindex="0" class="thoughts-text">
             More to come...
           </p>
         </div>
@@ -179,11 +182,11 @@
 
     <section class="skills">
       <div class="content"> 
-        <h3 class="skills-heading">SKILLS</h3>
+        <h3 tabindex="0" class="skills-heading">SKILLS</h3>
         <div class="skills-wrapper"> 
           <div class="skills-div">
-            <h4 class="skills-subheading">CODE</h5>
-            <ul>
+            <h4 tabindex="0" class="skills-subheading">CODE</h5>
+            <ul tabindex="0">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript ES6</li>
@@ -191,16 +194,16 @@
             </ul>
           </div>
           <div class="skills-div">
-            <h4 class="skills-subheading">UPCOMING</h5>
-            <ul>
+            <h4 tabindex="0" class="skills-subheading">UPCOMING</h5>
+            <ul tabindex="0">
               <li>React</li>
               <li>SASS</li>
               <li>Node.js</li>
             </ul>
           </div>
           <div class="skills-div">
-            <h4 class="skills-subheading">TOOLBOX</h5>
-            <ul>
+            <h4 tabindex="0" class="skills-subheading">TOOLBOX</h5>
+            <ul tabindex="0">
               <li>VS Code</li>
               <li>Figma</li>
               <li>Notion</li>
@@ -211,8 +214,8 @@
             </ul>
           </div>
           <div class="skills-div">
-            <h4 class="skills-subheading">MORE</h5>
-            <ul>
+            <h4 tabindex="0" class="skills-subheading">MORE</h5>
+            <ul tabindex="0">
               <li>Coaching</li>
               <li>Public administration</li>
               <li>Politics</li>
@@ -228,22 +231,21 @@
 
     <section class="for-more">
       <div class="content"> 
-        <h3 class="skills-heading">FOR MORE</h3>
+        <h3 tabindex="0" class="skills-heading">FOR MORE</h3>
         <article class="icons-bottom">
-          <a class="icon-wrapper" href="https://www.linkedin.com/in/hannaskeppe/"> 
+          <a aria-label="LinkedIn icon with link to my LinkedIn page" tabindex="0"  class="icon-wrapper" href="https://www.linkedin.com/in/hannaskeppe/"> 
             <i class="fa fa-linkedin"></i>
             <span class="sr-only">LinkedIn</span>
             <p>LinkedIn</p>
           </a>
-          <a class="icon-wrapper" href="https://github.com/Hanna-Skeppe"> 
+          <a aria-label="GitHub icon with link to my GitHub page" tabindex="0" class="icon-wrapper" href="https://github.com/Hanna-Skeppe"> 
             <i class="fa fa-github"></i>
             <span class="sr-only">GitHub</span>
             <p>GitHub</p>
           </a>
-          <a class="icon-wrapper" href="https://stackoverflow.com/users/12440835/hanna-skeppe"> 
+          <a aria-label="StackOverflow icon with link to my page on StackOverflow" tabindex="0" class="icon-wrapper" href="https://stackoverflow.com/users/12440835/hanna-skeppe"> 
             <i class="fa fa-stack-overflow"></i>
             <span class="sr-only">StackOverflow</span>
-            <!-- Kolla upp sr-only! -->
             <p>StackOverflow</p>
           </a>
         </article>
@@ -251,13 +253,11 @@
     </section>
 
     <footer>
-      <h3 class="footer-heading">CONTACT</h3>
-      <p>Hanna Skeppe</p>
-      <p>+46 70 446 41 48</p>
-      <a href="mailto:hannaskeppe@gmail.com">e-mail</a>
+      <h3 tabindex="0" class="footer-heading">CONTACT</h3>
+      <p tabindex="0" aria-label="Name: Hanna Skeppe">Hanna Skeppe</p>
+      <p tabindex="0" aria-label="Phone number: +46 70 446 41 48">+46 70 446 41 48</p>
+      <a tabindex="0" aria-label="Link to my e-mailadress: hannaskeppe@gmail.com" href="mailto:hannaskeppe@gmail.com">e-mail</a>
     </footer>
-
-  
   </main>
 </body>
 </html>
