@@ -321,11 +321,11 @@ p {
 }
 
 .other-project-section {
-  align-self: flex-start;
+  align-self: center;
 }
 
 .other-project-section p {
-  max-width: 950px;
+  max-width: 60ch;
 }
 
 .other-pizza {
@@ -345,6 +345,7 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .skills-div {
@@ -353,6 +354,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 0 10px;
 }
 
 .skills-subheading {
@@ -594,21 +596,21 @@ footer a {
   }
 
   .other-pizza {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
+    display: block;
+    align-self: center;
+  }
+
+  .other-pizza p {
+    max-width: 60ch;
   }
 
   .skills-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
     width: 100%;
   }
 
   .skills-div {
-    width: 25%;
+    width: 22%;
+    max-width: 190px; 
   }
 }
 
@@ -645,6 +647,14 @@ footer a {
  .summary-figures {
    left: 40px;
  }
+
+ .skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
 
  li {
    font-weight: 400;
