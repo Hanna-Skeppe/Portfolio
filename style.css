@@ -627,38 +627,38 @@ footer a {
     font-size: 18px;
   }
 
- .hero-section {
-   height: 70vh;
- }
+  .hero-section {
+    height: 70vh;
+  }
 
- .profilepic {
-   width: 210px;
- }
+  .profilepic {
+    width: 210px;
+  }
 
- .summary-content {
-   max-width: 796px;
- }
+  .summary-content {
+    max-width: 796px;
+  }
 
- .summary-text,
- .tech-text {
-   max-width: 60ch;
- }
+  .summary-text,
+  .tech-text {
+    max-width: 60ch;
+  }
 
- .summary-figures {
-   left: 40px;
- }
+  .summary-figures {
+    left: 40px;
+  }
 
- .skills-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-  width: 100%;
-}
+  .skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+  }
 
- li {
-   font-weight: 400;
- }
+  li {
+    font-weight: 400;
+  }
 }
 
 @media(min-width:1400px) {
