@@ -265,6 +265,15 @@ p {
   background-color: rgba(73, 88, 103, 0.7);
   z-index: 2;
   cursor: pointer;
+  transition: all .5s ease; 
+}
+
+.project-overlay:hover .project-subheading {
+  transform: scale(1.1);
+}
+
+.project-overlay:hover {
+  background-color: rgba(73, 88, 103, 0.9);
 }
 
 .project-subheading {
@@ -275,6 +284,7 @@ p {
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
+  transition: transform .5s ease; 
 }
 
 .project-text,
