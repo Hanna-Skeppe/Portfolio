@@ -46,6 +46,7 @@ p {
   margin: 0;
 }
 
+/* HERO HEADER SECTION */
 .hero-section {
   background-image: url("./assets/hero-dark-leaves_1.jpg");
   background-size: cover;
@@ -131,6 +132,7 @@ p {
   z-index: 999;
 }
 
+/* SUMMARY SECTION */
 .summary-section {
   background-color: #F4F4F4;
   margin-top: -20px;
@@ -183,6 +185,7 @@ p {
   display: inline-block;
 }
 
+/* TECH SECTION */
 .tech-section {
   display: flex;
   flex-direction: column;
@@ -208,6 +211,7 @@ p {
   color: #593528;
 }
 
+/* FEATURED PROJECTS SECTION */
 .featured-projects,
 .other-projects {
   background-color: #F4F4F4;
@@ -324,6 +328,7 @@ p {
   text-align: center;
 }
 
+/* OTHER PROJECTS SECTION */
 .other-heading {
   font-family: 'Montserrat', bold, sans-serif;
   color: #1c3312;
@@ -345,6 +350,7 @@ p {
   display: none;
 }
 
+/* SKILLS SECTION */
 .skills {
   display: flex;
   flex-direction: column;
@@ -368,6 +374,10 @@ p {
   align-items: center;
   text-align: center;
   margin: 0 10px;
+}
+
+.skills-div li {
+  margin-bottom: 5px;
 }
 
 .skills-subheading {
@@ -394,6 +404,7 @@ p {
   margin: 15px 0 0 0;
 }
 
+/* MY THOUGHTS SECTION */
 .my-thoughts-wrapper {
   display: flex;
   justify-content: center;
@@ -404,7 +415,6 @@ p {
 .my-thoughts {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   background-color: #b2c2a8;
 }
@@ -415,17 +425,7 @@ p {
   font-weight: 600;
 }
 
-/* .my-thoughts-img {
-  width: 50%;
-  max-width: 500px;
-  margin-bottom: 15px;
-} */
-
-/*                            STYLING OF IMPORTED BLOG-FEED FROM MEDIUM: */
-/* .col-sm-12 {
-  max-width: 600px;
-} */
-
+/*STYLING OF IMPORTED BLOG-FEED FROM MEDIUM: */
 .post-title {
   color: #fff;
 }
@@ -455,6 +455,7 @@ p {
   margin-top: 15px;
 }
 
+/* FOR MORE SECTION */
 .for-more {
   display: flex;
   flex-direction: column;
@@ -504,10 +505,7 @@ p {
   color: #1c3312;
 }
 
-.skills-div li {
-  margin-bottom: 5px;
-}
-
+/* FOOTER SECTION */
 footer {
   padding: 63px 36px;
   background: #1c3312;
@@ -538,6 +536,7 @@ footer a {
   color: #fff;
 }
 
+/* MEDIA QUERIES */
 @media(max-width:360px) {
   .hero-section {
     height: 65vh;
@@ -644,16 +643,11 @@ footer a {
   .project-subheading {
     font-size: 22px;
     margin: 15px;
-    /* margin-right: 15px; */
   }
 
   .pizza {
     display: none;
   }
-
-  /* .project-text p {
-    height: 110px;
-  } */
 
   .other-pizza {
     display: block;
