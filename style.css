@@ -426,33 +426,18 @@ p {
 }
 
 /*STYLING OF IMPORTED BLOG-FEED FROM MEDIUM: */
-.post-title {
-  color: #fff;
+.medium-widget-article-grid {
+  width: 80%;
+  margin: auto;
 }
 
-.post-title h2::first-letter {
-  text-transform: uppercase;
+.medium-widget-article__title {
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.post-date,
-.excerpt figure,
-.excerpt figcaption {
-  color: #1d3313;
-  font-family: Roboto, sans-serif;
-}
-
-.excerpt a {
-  color:#1d3313;
-}
-
-.author.mt-2,
-.read-more a {
-  font-family: Roboto, sans-serif;
-  color: #1d3313;
-}
-
-.read-more {
-  margin-top: 15px;
+.medium-widget-article__description {
+  font-size: 20px;
 }
 
 /* FOR MORE SECTION */
