@@ -567,6 +567,11 @@ footer a {
     width: min-content;
   }
 
+  .project-photo img {
+    max-height: 144px; 
+    /* adding this to try to fix dragged out pictures on iphone */
+  }
+
   .project-subheading {
     font-size: 16px;
   }
