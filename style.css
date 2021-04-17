@@ -260,6 +260,7 @@ p {
 
 .project-photo img {
   width: 100%;
+  min-height: auto
 }
 
 .project-overlay {
