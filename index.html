@@ -23,40 +23,20 @@
 </head>
 
 <body>
-
   <header class="hero-section">
     <div class="hero-overlay">
-      <section class="icons-top-wrapper">
-        <a 
-          class="icon-top" 
-          href="https://www.linkedin.com/in/hannaskeppe/" 
-          aria-label="LinkedIn icon"
-          title="My LinkedIn page" 
-          tabindex="0"
-        >
-          <img 
-            class="header-icon" 
-            src="./assets/linkedinbig.png"
-            alt="Linkedin icon"
-          >
+      <article class="icons-top">
+        <a class="icon-top" href="https://www.linkedin.com/in/hannaskeppe/"
+          aria-label="LinkedIn icon with link to my LinkedIn profile" title="My LinkedIn page" tabindex="0">
+          <i class="fa fa-linkedin"></i>
           <span class="sr-only">LinkedIn link</span>
         </a>
-
-        <a 
-          class="icon-top" 
-          href="https://github.com/Hanna-Skeppe" 
-          aria-label="GitHub icon" 
-          title="My GitHub page"
-          tabindex="0"
-        >
-          <img 
-            class="header-icon" 
-            src="./assets/githubiconbig.png" 
-            alt="GitHub icon"
-          >
+        <a class="icon-top" href="https://github.com/Hanna-Skeppe" aria-label="GitHub icon with link to my GitHub"
+          title="My GitHub page" tabindex="0">
+          <i class="fa fa-github"></i>
           <span class="sr-only">GitHub link</span>
         </a>
-      </section>
+      </article>
 
       <section class="header-text">
         <p tabindex="0" class="header-name">
@@ -66,15 +46,10 @@
           Frontend developer
         </h1>
         <h2 tabindex="0">
-          With a background as a public official
+          + background as a public official
         </h2>
       </section>
-      <img 
-        tabindex="0" 
-        class="profilepic" 
-        src="./assets/profilepic_1.jpg" 
-        alt="Profile picture of Hanna Skeppe"
-      >
+      <img tabindex="0" class="profilepic" src="./assets/profilepic_1.jpg" alt="Profile picture of Hanna Skeppe">
     </div>
   </header>
 
@@ -85,13 +60,10 @@
           <span class="circle"></span>
           <span class="line"></span>
         </figure>
-        <p tabindex="0" class="summary-text">Hello! I’m a frontend developer. 
-          I really enjoy to create products that have solid and structured code 
+        <p tabindex="0" class="summary-text">Hello! I’m a frontend developer.
+          I really enjoy to create projects that have solid and structured code
           as well as a clean and on point design. What I like most about coding is
-          that it entails both a creative aspect in design and in planning how to 
-          structure the code and that it also challenges the logical part of 
-          the brain. The best part of my journey to become a better frontend 
-          developer is that I always get to learn new things.
+          that it entails both a creative aspect in design and planning and that it also challenges my logical problem-solving skills. The best part of my journey to become a better frontend developer is that I always get to evolve and learn new things.
         </p>
       </div>
     </section>
@@ -100,32 +72,101 @@
       <div class="content">
         <h3 tabindex="0" class="tech-heading">Tech</h3>
         <p tabindex="0" class="tech-text">
-          HTML, CSS, Flexbox, 
-          <span class="brown-tech">JavaScript,</span> 
-          ES6, JSX, 
-          <span class="brown-tech">React,React Hooks, Redux,</span> 
-          Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, 
+          HTML, CSS3,
+          <span class="brown-tech">JavaScript,</span>
+          ES6, JSX,
+          <span class="brown-tech">React, React Hooks, Redux,</span>
+          Styled Components, Node.js, Mongo DB, Mongo atlas, Mongoose, Web Accessibly, API:s, React Native,
+          mob-programming,
           pair-programming,
-          Github.
+          GitHub.
         </p>
       </div>
     </section>
 
     <section class="featured-projects">
       <div class="content">
-        <h3 
-          tabindex="0" 
-          aria-label="My featured projects" 
-          class="project-heading"
-        >
+        <h3 tabindex="0" aria-label="My featured projects" class="project-heading">
           Featured Projects
         </h3>
         <div class="projects-wrapper">
-          <a 
-            aria-label="Happy thoughts app. Link to app. 
-            Built using React."
-            class="project-section" 
-            href="https://hanna-happy-thoughts-new-version.netlify.app/">
+          <a aria-label="Natural wines project. Link to app. 
+            Built using React, Redux and backend with Node, Express and Mongo DB." class="project-section"
+            href="https://natural-wines-finder.netlify.app/">
+            <div class="project-photo">
+              <div class="project-overlay">
+                <h2 class="project-subheading">
+                  Natural Wine Project
+                </h2>
+              </div>
+              <img src="./assets/natural_wine_project.jpg" alt="Picture of Natural wines project">
+            </div>
+            <div class="project-text">
+              <p>
+                <span class="brown-bold">NATURAL WINE FINDER</span>
+                User can search for wines. If logged in, user can save favorites to personal page & rate wines.
+                <span class="brown">>></span>
+              </p>
+              <article class="project-labels">
+                <span>React/Redux</span>
+                <span>Styled Components</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Mongo DB</span>
+              </article>
+            </div>
+          </a>
+          <a aria-label="To-do app. Link to app. 
+            Built using React." class="project-section" href="https://hannas-to-do-app.netlify.app/">
+            <div class="project-photo">
+              <div class="project-overlay">
+                <h2 class="project-subheading">
+                  TO DO APP
+                </h2>
+              </div>
+              <img src="./assets/todo_project.jpg" alt="Picture of to-do app">
+            </div>
+            <div class="project-text">
+              <p>
+                <span class="brown-bold">TO-DO APP</span>
+                To-do app built with React. Add, remove, filter on category, complete to-do's & set due date on a todo.
+                <span class="brown">>></span>
+              </p>
+              <article class="project-labels">
+                <span>React</span>
+                <span>Redux</span>
+                <span>Styled Components</span>
+                <span>JavaScript ES6</span>
+              </article>
+            </div>
+          </a>
+          <a aria-label="Quiz-project. Link to app. 
+            Built using React, Redux and backend with Node, Express and Mongo DB." class="project-section"
+            href="https://happy-northcutt-899da4.netlify.app/">
+            <div class="project-photo">
+              <div class="project-overlay">
+                <h2 class="project-subheading">
+                  Quiz project
+                </h2>
+              </div>
+              <img src="./assets/Quiz_project.jpg" alt="Picture of quiz project">
+            </div>
+            <div class="project-text">
+              <p>
+                <span class="brown-bold">CHRISTMAS QUIZ</span>
+                A multistep quiz built using React, Redux.
+                <span class="brown">>></span>
+              </p>
+              <article class="project-labels">
+                <span>React</span>
+                <span>Redux</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+              </article>
+            </div>
+          </a>
+          <a aria-label="Happy thoughts app. Link to app. 
+            Built using React." class="project-section" href="https://hanna-happy-thoughts-new-version.netlify.app/">
             <div class="project-photo">
               <div class="project-overlay">
                 <h2 class="project-subheading">
@@ -137,14 +178,14 @@
             <div class="project-text">
               <p>
                 <span class="brown-bold">HAPPY THOUGHTS APP & API</span>
-                Frontend built with React. Send a Happy thought and like others posts. 
-                Backend built with Node, Express & Mongo DB.
+                Frontend built with React. Post a Happy thought. Like & sort posts. Backend built with Node, Express &
+                Mongo DB.
                 <span class="brown">>></span>
               </p>
               <article class="project-labels">
                 <span>React</span>
                 <span>API</span>
-                <span>Javascript ES6</span>
+                <span>JavaScript ES6</span>
                 <span>Node.js</span>
                 <span>Express</span>
                 <span>Mongo DB</span>
@@ -152,11 +193,9 @@
             </div>
           </a>
 
-          <a 
-            aria-label="Survey-project, using React state and controlled forms.
+          <a aria-label="Survey-project, using React state and controlled forms.
             Questions are shown one at a time and the user needs to answer each question 
-            to be able to continue. Tech used in the project: HTML, CSS and Javascript"
-            class="project-section" 
+            to be able to continue. Tech used in the project: HTML, CSS and JavaScript" class="project-section"
             href="https://survey-project-hanna.netlify.app/">
             <div class="project-photo">
               <div class="project-overlay">
@@ -169,56 +208,21 @@
             <div class="project-text">
               <p>
                 <span class="brown-bold">SURVEY PROJECT.</span>
-                Multi page survey, using React state and controlled forms with form validation. 
-                Screenreader accessible. Responsive.
+                Multi page survey, using React state and controlled forms with form validation.
+                Screenreader accessible.
                 <span class="brown">>></span>
               </p>
               <article class="project-labels">
                 <span>React</span>
                 <span>Controlled forms</span>
-                <span>Javascript ES6</span>
+                <span>JavaScript ES6</span>
               </article>
             </div>
           </a>
 
-          <a 
-            aria-label="Music-project, Spotify-mockup. Link to music project, displaying data 
-            about albums from a json-file. Tech used in the project: HTML, CSS and Javascript"
-            class="project-section" 
-            href="https://music-releases-site-hanna-johanna.netlify.app/"
-          >
-            <div class="project-photo">
-              <div class="project-overlay">
-                <h2 class="project-subheading">
-                  Music releases project
-                </h2>
-              </div>
-              <img src="./assets/music-releases.jpg" alt="Picture of Music releases">
-            </div>
-            <div class="project-text">
-              <p>
-                <span class="brown-bold">
-                  MUSIC RELEASES PROJECT.
-                </span> 
-                A Spotify mockup built with React, displaying data from a json-file. 
-                With links to albums and artists. Responsive.
-                <span class="brown">>></span>
-              </p>
-              <article class="project-labels">
-                <span>React</span>
-                <span>Json</span>
-                <span>Javascript ES6</span>
-                <span>CSS3</span>
-              </article>
-            </div>
-          </a>
-
-          <a 
-            aria-label="Sunny side up. Link to Weather app, built in Javascript using Open 
-            Weather API. Tech used in the project: HTML, CSS and Javascript"
-            class="project-section" 
-            href="https://youthful-ardinghelli-e80e81.netlify.app/"
-          >
+          <a aria-label="Weather app. Link to Weather app, built in JavaScript using Open 
+            Weather API. Tech used in the project: HTML, CSS and JavaScript" class="project-section"
+            href="https://youthful-ardinghelli-e80e81.netlify.app/">
             <div class="project-photo">
               <div class="project-overlay">
                 <h2 class="project-subheading">
@@ -229,72 +233,15 @@
             </div>
             <div class="project-text">
               <p>
-                <span class="brown-bold">WEATHER APP.</span> 
-                Web app built in Javascript using open weather API. 
-                Background color & picture changes according to temperature. Responsive. 
+                <span class="brown-bold">WEATHER APP.</span>
+                Web app built in JavaScript using open weather API.
+                Background color & picture changes according to temperature.
                 <span class="brown">>></span>
               </p>
               <article class="project-labels">
-                <span>Javascript ES6</span>
+                <span>JavaScript ES6</span>
                 <span>API</span>
                 <span>CSS3</span>
-              </article>
-            </div>
-          </a>
-
-          <a 
-            aria-label="Cluedo mystery game. Link to classic Cluedo game-page. 
-            Built using Javascript. Tech used in the project: HTML, CSS and Javascript"
-            class="project-section" 
-            href="https://cluedo-murder-mystery-hanna.netlify.app/"
-          >
-            <div class="project-photo">
-              <div class="project-overlay">
-                <h2 class="project-subheading">
-                  Cluedo Mystery Game
-                </h2>
-              </div>
-              <img src="./assets/cluedo.jpg" alt="Cluedo game picture">
-            </div>
-            <div class="project-text">
-              <p>
-                <span class="brown-bold">CLUEDO GAME.</span>
-                Classic Cluedo-game, built using Javascript
-                <span class="brown">>></span>
-              </p>
-              <article class="project-labels">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Javascript ES6</span>
-              </article>
-            </div>
-          </a>
-
-          <a 
-            aria-label="Pizza bot. Link to pizza bot. A page created to order pizza. 
-            Built using Javascript. Tech used in the project: HTML, CSS and Javascript"
-            class="project-section pizza" 
-            href="https://pizza-bot-hanna-and-therese.netlify.app/"
-          >
-            <div class="project-photo">
-              <div class="project-overlay">
-                <h2 class="project-subheading">
-                  Pizza Bot
-                </h2>
-              </div>
-              <img src="./assets/pizzabot.jpg" alt="Picture pf pizza bot project">
-            </div>
-            <div class="project-text">
-              <p>
-                <span class="brown-bold">PIZZA BOT.</span>
-                A pizza bot, where you can order pizzas with a form input
-                and a range slider. Project built using Javascript. Responsive.
-                <span class="brown">>></span>
-              </p>
-              <article class="project-labels">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Javascript ES6</span>
               </article>
             </div>
           </a>
@@ -305,91 +252,94 @@
     <section class="other-projects">
       <div class="content">
         <h3 tabindex="0" class="other-heading">Other projects</h3>
-        <a 
-          aria-label="Pizza bot. Link to pizza bot. A page created to order pizza. 
-          Built using Javascript. Tech used in the project: HTML, CSS and Javascript"
-          class="other-project-section other-pizza" 
-          href="https://pizza-bot-hanna-and-therese.netlify.app/"
-        >
+        <a class="other-project-section" aria-label="Music-project, Spotify-mockup. Done as a pair-programming project. Link to music project, displaying data 
+          about albums from a json-file. Tech used in the project: HTML, CSS and JavaScript"
+          href="https://music-releases-site-hanna-johanna.netlify.app/">
           <p>
             <span class="brown-bold">
-              PIZZA BOT. 
+              MUSIC RELEASES PROJECT.
             </span>
-            A pizza bot, where you can order pizzas with a form input and a
-            range slider. Project built using Javascript. Responsive.
-            <span class="brown"> >></span></p>
+            A Spotify mockup built with React, displaying data from a Json-file.
+            With links to albums and artists. A pair-programming project.
+            <span class="brown"> >></span>
+          </p>
           <article class="project-labels">
-            <span>HTML5</span>
+            <span>React</span>
+            <span>Json</span>
+            <span>JavaScript ES6</span>
             <span>CSS3</span>
-            <span>Javascript ES6</span>
           </article>
         </a>
-
-        <a 
-          aria-label="BUSINESS SITE: 'Pine Tree Cabins'. Link to mockup 
-          busines site with a video hero, an accordion and a submit form. 
-          Tech used in the project: HTML, CSS and Javascript"
-          class="other-project-section" 
-          href="https://pinetreecabins.netlify.app/"
-        >
+        <a aria-label="Cluedo mystery game. Link to classic Cluedo game-project. Tech used in the project: HTML, CSS and JavaScript"
+          class="other-project-section" href="https://cluedo-murder-mystery-hanna.netlify.app/">
           <p>
             <span class="brown-bold">
-              BUSINESS SITE: "Pine Tree Cabins". 
+              CLUEDO GAME.
             </span>
-            A Business site, built using HTML, CSS
-            and Javascript. With a video hero, an accordion and a submit form. 
-            Responsive.
+            Classic Cluedo-game, built using HTML, CSS & JavaScript.
             <span class="brown"> >></span>
           </p>
           <article class="project-labels">
             <span>HTML5</span>
             <span>CSS3</span>
-            <span>Javascript ES6</span>
+            <span>JavaScript ES6</span>
+          </article>
+        </a>
+        <a aria-label="BUSINESS SITE: 'Pine Tree Cabins'. Link to mockup 
+          busines site with a video hero, an accordion and a submit form. 
+          Tech used in the project: HTML, CSS and JavaScript" class="other-project-section"
+          href="https://pinetreecabins.netlify.app/">
+          <p>
+            <span class="brown-bold">
+              BUSINESS SITE: "Pine Tree Cabins".
+            </span>
+            A Business site, built using HTML, CSS
+            and JavaScript. With a video hero, an accordion and a submit form.
+            <span class="brown"> >></span>
+          </p>
+          <article class="project-labels">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript ES6</span>
           </article>
         </a>
 
-        <a 
-          aria-label="BUSINESS SITE: 'Baker & Brown'. Link to mockup 
-          Business site, built using HTML, CSS and Javascript (jQuery). 
+        <a aria-label="BUSINESS SITE: 'Baker & Brown'. Link to mockup 
+          Business site, built using HTML, CSS and JavaScript (jQuery). 
           CSS transitions and toggle class with jQuery. Only desktop. 
-          Tech used in the project: HTML, CSS and Javascript"
-          class="other-project-section" 
-          href="https://baker-and-brown-week-6-5.superhi.com/"
-        >
+          Tech used in the project: HTML, CSS and JavaScript" class="other-project-section"
+          href="https://baker-and-brown-week-6-5.superhi.com/">
           <p>
             <span class="brown-bold">
-              BUSINESS SITE: "Baker & Brown". 
+              BUSINESS SITE: "Baker & Brown".
             </span>
             A Business site, built using HTML, CSS and
-            Javascript (jQuery). CSS transitions and toggle class with jQuery. 
+            JavaScript (jQuery). CSS transitions and toggle class with jQuery.
             Only desktop.
             <span class="brown">>></span>
           </p>
           <article class="project-labels">
             <span>HTML5</span>
             <span>CSS3</span>
-            <span>Javascript ES6</span>
+            <span>JavaScript ES6</span>
           </article>
         </a>
 
-        <a 
-          aria-label="ACCESSORIES SHOP: 'Essmei'. Link to mockup 
-          accessories shop, built using HTML, CSS and Javascript (jQuery). Showing and hiding CSS classes with jQuery. Tech used in the project: HTML, CSS and Javascript"
-          class="other-project-section" 
-          href="https://week-5-essmei-106.superhi.com"
-        >
+        <a aria-label="ACCESSORIES SHOP: 'Essmei'. Link to mockup 
+          accessories shop, built using HTML, CSS and JavaScript (jQuery). Showing and hiding CSS classes with jQuery. Tech used in the project: HTML, CSS and JavaScript"
+          class="other-project-section" href="https://week-5-essmei-106.superhi.com">
           <p>
             <span class="brown-bold">
-              ACCESSORIES SHOP: "Essmei". 
+              ACCESSORIES SHOP: "Essmei".
             </span>
             A mockup accessories shop, built using HTML,
-            CSS and Javascript (jQuery). Showing and hiding CSS classes with jQuery. 
-            Responsive.
-            <span class="brown">>></span></p>
+            CSS and JavaScript (jQuery). Showing and hiding CSS classes with jQuery.
+            <span class="brown">>></span>
+          </p>
           <article class="project-labels">
             <span>HTML5</span>
             <span>CSS3</span>
-            <span>Javascript ES6</span>
+            <span>JavaScript ES6</span>
           </article>
         </a>
       </div>
@@ -402,8 +352,8 @@
           <p tabindex="0" class="thoughts-text">
             My thoughts about code and reflections on my coding journey.
           </p>
+          <div id="medium-widget"></div>
         </div>
-        <div id="medium-widget"></div>
       </div>
     </section>
 
@@ -416,7 +366,7 @@
               <ul class="list" tabindex="0">
                 <li>HTML5</li>
                 <li>CSS3</li>
-                <li>Javascript ES6</li>
+                <li>JavaScript ES6</li>
                 <li>React hooks</li>
                 <li>Redux</li>
                 <li>React Native</li>
@@ -428,18 +378,11 @@
               </ul>
           </div>
           <div class="skills-div">
-            <h4 tabindex="0" class="skills-subheading">UPCOMING</h5>
-              <ul class="list" tabindex="0">
-                <li>SASS</li>
-                <li>BEM</li>
-              </ul>
-          </div>
-          <div class="skills-div">
             <h4 tabindex="0" class="skills-subheading">TOOLBOX</h5>
               <ul class="list" tabindex="0">
                 <li>Code reviews</li>
-                <li>Mob programming</li>
-                <li>Pair programming</li>
+                <li>Mob-programming</li>
+                <li>Pair-programming</li>
                 <li>Web accessibility</li>
                 <li>VS Code</li>
                 <li>Figma</li>
@@ -458,7 +401,6 @@
                 <li>Coaching</li>
                 <li>Coordination</li>
                 <li>Public administration</li>
-                <li>Politics</li>
               </ul>
           </div>
         </div>
@@ -469,37 +411,25 @@
       <div class="content">
         <h3 tabindex="0" class="skills-heading">FOR MORE</h3>
         <article class="icons-bottom">
-          <a 
-            aria-label="LinkedIn icon with link to my LinkedIn page" 
-            tabindex="0" 
-            class="icon-wrapper"
-            href="https://www.linkedin.com/in/hannaskeppe/"
-          >
+          <a aria-label="LinkedIn icon with link to my LinkedIn page" tabindex="0" class="icon-wrapper"
+            href="https://www.linkedin.com/in/hannaskeppe/">
             <i class="fa fa-linkedin"></i>
             <span class="sr-only">LinkedIn</span>
             <p>LinkedIn</p>
           </a>
 
-          <a 
-            aria-label="GitHub icon with link to my GitHub page" 
-            tabindex="0" 
-            class="icon-wrapper"
-            href="https://github.com/Hanna-Skeppe"
-          >
+          <a aria-label="GitHub icon with link to my GitHub page" tabindex="0" class="icon-wrapper"
+            href="https://github.com/Hanna-Skeppe">
             <i class="fa fa-github"></i>
             <span class="sr-only">GitHub</span>
             <p>GitHub</p>
           </a>
 
-          <a 
-            aria-label="StackOverflow icon with link to my page on StackOverflow" 
-            tabindex="0" 
-            class="icon-wrapper"
-            href="https://stackoverflow.com/users/12440835/hanna-skeppe"
-          >
-            <i class="fa fa-stack-overflow"></i>
-            <span class="sr-only">StackOverflow</span>
-            <p>StackOverflow</p>
+          <a aria-label="PDF-icon with a link to my CV" tabindex="0" class="icon-wrapper"
+            href="./assets/CV_Hanna_Skeppe_april_2021.pdf">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            <span class="sr-only">CV</span>
+            <p>CV</p>
           </a>
         </article>
       </div>
@@ -515,6 +445,8 @@
   </main>
 </body>
 <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-<script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@hannaskeppe","postsPerLine":2,"limit":3,"picture":"small","fields":["description","author","publishAt"],"ratio":"square"}})</script>
+<script>
+  MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/@hannaskeppe", "postsPerLine": 2, "limit": 3, "picture": "small", "fields": ["description", "author", "publishAt"], "ratio": "square" } })
+</script>
+
 </html>
-    
