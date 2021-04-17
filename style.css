@@ -260,6 +260,7 @@ p {
 
 .project-photo img {
   width: 100%;
+  height: auto;
   min-height: auto
 }
 
