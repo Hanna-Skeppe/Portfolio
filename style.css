@@ -261,7 +261,8 @@ p {
 .project-photo img {
   width: 100%;
   height: auto;
-  min-height: auto
+  min-height: auto;
+  align-self: flex-start;
 }
 
 .project-overlay {
